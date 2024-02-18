@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Portfolio Website -  Easy Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/21e64c3000.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src="Image/chris.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1> Hi, <span>Im Christian</span> <br>from PUPSMB</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/chris.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey everyone, I'm Christian Silverio Perez. I'm living here in Santa Cruz, Santa Maria, Bulacan. 
+                    And I finished my highest degree of my education, which is Bachelor's Science in Computer Engineer. 
+                    My interpersonal skills is being an active listener, dependability, patience and empathy to others.
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Designer</span><br>Designing Web and Interface</li>
+                            <li><span>Data Analytics</span><br>The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision making.</li>
+                            <li><span>Database Management</span><br>Organize, store, and retrieve data from a computer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresh Graduate</span><br>There's no any related actual experience nor any trainings yet during my college years since pandemic era.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Elementary</span><br>Santa Cruz Elementary School</li>
+                            <li><span>High School (JHS and SHS)</span><br>Santa Cruz High School</li>
+                            <li><span>College</span><br>Polytechnic University of the Philippines - Santa Maria Bulacan Campus</li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----Services----->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa solid fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>Web design is the creation of websites and pages to reflect a company's brand and information 
+                    and ensure a user-friendly experience. Appearance and design are incorporated as vital elements 
+                    whether you're designing a website, mobile app or maintaining content on a web page. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>The UI UX Designer helps create products with a good user experience. They are responsible for 
+                    understanding what users want from their device and then designing it so they can find all of 
+                    its features easily without any hassle. They also make sure everything works properly when combined 
+                    in one package.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Designer</h2>
+                <p>Mobile App Designer, is a creative professional who specialises in designing the user interfaces (UI) 
+                    and user experiences (UX) of mobile applications. They play a crucial role in creating visually appealing, 
+                    user-friendly, and functional mobile apps.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/My Portfolio.png">
+                <div class="layer">
+                    <h3>My personal webpage portfolio</h3>
+                    <p> Showcase your skills, projects, and achievements to impress potential employers or clients.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/UI-UX.png">
+                <div class="layer">
+                    <h3>UI/UX</h3>
+                    <p>The design and overall feel of a digital product, focusing on how users interact with it and their overall satisfaction.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image/6410ebf8e483b53d6186fc53_ABM College Web developer main.jpg">
+                <div class="layer">
+                    <h3>Web Developer</h3>
+                    <p>A professional who designs, builds, and maintains websites and web applications.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-----------Contact------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>pchristian270@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>09392840996</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/tishianshan1/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Image/Christian Perez Resume Updated 23-01-2024.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Christian. Made with <i class="fas fa-brain"></i> by Christian Perez</p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
